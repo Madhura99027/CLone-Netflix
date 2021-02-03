@@ -1,0 +1,53 @@
+/* pushes everything to just  right  */
+.row{
+    margin:20px;
+    color: white;
+  }
+  
+  
+  
+  /* flex added to convert the column into row vice versa as we had the column of imaged=s  */
+  
+  /* we needed to scroll only the row so y axis hidden and scroll bar added to x asis */
+  
+  /* as the scroll bar was in the way of the hovering effect so needed padding  */
+  
+  .row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  /* to say that no more scroll bars should be displayed in any of the web browsers*/
+  
+  .row__posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* yhis is for each image styling we changed the margin between two image to 10px  */
+  /* max height to 100px  */
+  /* then we added timer for smooth transition that may happen in the image while hovering */
+  
+  .row__poster {
+    object-fit: contain;
+    margin-right: 10px;
+  
+    width: 100%;
+    max-height: 100px;
+    transition: transform 450 ms;
+  }
+  
+  .row__poster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
+  .row__posterLarge {
+    max-height: 250px;
+  }
+  
+  .row__posterLarge:hover {
+    transform: scale(1.09);
+    
+  }
