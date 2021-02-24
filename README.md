@@ -1,3 +1,7 @@
+# preview 
+https://6036203af65635c4bee43a55--clone-net-flix-clone.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
